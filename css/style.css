@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+
+  background: rgba(253, 236, 203, 0.973);
+}
+.name {
+  height: 10rem;
+  background: rgb(109, 109, 109);
+  width: 100%;
+
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+}
+.Input {
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  background: rgb(53, 53, 53);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav-block {
+  width: 100%;
+  height: 4rem;
+  background: rgb(66, 66, 66);
+}
+.nav-links {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  position: sticky;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.9rem;
+  width: 15rem;
+  border: 1px solid white;
+  color: white;
+  background: linear-gradient(rgb(88, 88, 88), rgb(66, 66, 66));
+}
+.nav-link:hover {
+  transition: 1s;
+  background: rgb(216, 216, 216);
+  color: black;
+}
+main {
+  width: 100%;
+
+  background: rgba(253, 231, 187, 0.973);
+}
+.title {
+  font-size: 40px;
+  color: rgb(255, 82, 82);
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+
+  padding: 30px;
+  justify-content: center;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgb(220, 255, 242);
+  max-width: 800px;
+  margin: auto;
+  margin-top: 6rem;
+  cursor: pointer;
+}
+.topic {
+  background: rgb(192, 255, 232);
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.text {
+  color: black;
+}
+.comments {
+  margin-top: 5rem;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 15px;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgb(255, 213, 161);
+}
+.icon {
+  width: 1rem;
+  text-align: center;
+  font-size: 18px;
+  border: 1px dotted black;
+  border-radius: 3px;
+  background: cyan;
+}
+.data {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+
+  max-width: 600px;
+  background: rgba(228, 253, 187, 0.973);
+  border-radius: 10px;
+  padding: 20px;
+}
+.username {
+  margin-top: 5rem;
+  font-size: 30px;
+  text-align: center;
+}
+.userlogin {
+  margin-top: 3rem;
+  display: inline-flex;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.userpassword {
+  margin-top: 3rem;
+  display: inline-flex;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.namedata {
+  margin-top: 3rem;
+  font-size: 30px;
+  display: flex;
+
+  justify-content: space-between;
+}
+footer {
+  background: rgb(255, 228, 173);
+}
+.UserPost {
+  background: rgb(255, 228, 173);
+  padding-top: 5rem;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(117, 117, 117);
+}
+.post1 {
+  width: 100%;
+  height: 100%;
+}
+.post2 {
+  width: 100%;
+  height: 100%;
+}
+.post3 {
+  width: 100%;
+  height: 100%;
+}
+.blockedusers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background: rgb(255, 228, 173);
+  width: 100%;
+  height: 80vh;
+}
+.writepost {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 3rem;
+}
+.writeyourpost {
+  display: flex;
+  font-size: 25px;
+  width: 500px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100px;
+}
+.enterpost {
+  background: green;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  border-radius: 20px;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+.foot {
+  display: none;
+  font-size: 30px;
+  margin: 0 auto;
+  background: rgb(211, 255, 211);
+  width: 100%;
+  height: 50vh;
+  color: green;
+}
+.main {
+  display: block;
+}
+.rate {
+  width: 50px;
+  font-size: 18px;
+  display: inline-flex;
+  background: rgb(187, 191, 255);
+}
+.like {
+  padding: 5px;
+  font-size: 25px;
+  color: green;
+}
+.dislike {
+  padding: 5px;
+  font-size: 25px;
+  color: red;
+}
+.rate1 {
+  width: 50px;
+  font-size: 18px;
+  display: inline-flex;
+  background: rgb(187, 191, 255);
+}
+.rate3 {
+  width: 50px;
+  font-size: 18px;
+  display: inline-flex;
+  background: rgb(187, 191, 255);
+}
+.registration {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+
+  background: rgb(255, 255, 173);
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.login-column {
+  display: flex;
+  margin-top: 3rem;
+}
+.loginka {
+  display: flex;
+  margin: 0 auto;
+  font-size: 25px;
+  width: 500px;
+}
+.password-column {
+  display: flex;
+  margin-top: 3rem;
+}
+.passwordka {
+  margin-top: 15px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 25px;
+  width: 500px;
+}
+.registr {
+  display: flex;
+  margin: 3rem auto;
+  font-size: 30px;
+  cursor: pointer;
+  background: rgb(144, 255, 144);
+}
